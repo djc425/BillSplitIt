@@ -6,7 +6,7 @@ BillSplitIt is a project based off the tutorial project from Angela Yu's iOS & S
 Some of the fun challenges here were making sure that a '$' is added eachtime the user types in the price, and making sure that only 1 decimal point is able to be added within the to UITextField. It was also fun to explore different ways to dismiss the keyboard, especially when I realized the decimalPad keyboard doesn't have a return key.
 
 
-
+![Preview](/BillSplitIt/Assets.xcassets/BillSplitIt_SimScreenShot.png)
 
 
 
