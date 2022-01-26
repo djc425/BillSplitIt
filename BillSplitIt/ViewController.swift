@@ -191,8 +191,6 @@ override func loadView() {
     view.addSubview(topView)
     
     // MARK: Diner Counter
-    
-    
     dinerCounter.minimumValue = 0
     dinerCounter.addTarget(self, action: #selector(addDiner), for: .valueChanged)
     dinerCounter.translatesAutoresizingMaskIntoConstraints = false
@@ -254,7 +252,6 @@ override func loadView() {
     totalsLabel.textColor = UIColor(red: 255/255, green: 203/255, blue: 203/255, alpha: 1.0)
     totalsLabel.font = UIFont.systemFont(ofSize: 20)
     totalsView.addSubview(totalsLabel)
-    
     
     totalBill = UILabel()
     totalBill.translatesAutoresizingMaskIntoConstraints = false
